@@ -1,0 +1,10 @@
+image:
+  repository: alpine
+  tag: 3.10.3
+  pullPolicy: IfNotPresent
+
+replicaCount: 1
+resources: {}
+
+webhookConfig:
+  serverPort: 443

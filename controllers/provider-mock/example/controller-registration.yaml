@@ -1,0 +1,28 @@
+---
+apiVersion: core.gardener.cloud/v1alpha1
+kind: ControllerRegistration
+metadata:
+  name: provider-mock
+spec:
+  resources:
+  - kind: BackupBucket
+    type: mock
+  - kind: BackupEntry
+    type: mock
+  - kind: ControlPlane
+    type: mock
+  - kind: Infrastructure
+    type: mock
+  - kind: Worker
+    type: mock
+  - kind: Network
+    type: mock
+  - kind: OperatingSystemConfig
+    type: mockos
+  deployment:
+    type: helm
+    providerConfig:
+      chart: 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
+      values:
+        image:
+          tag: 3.10.3
