@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//go:generate EFFECTIVE_VERSION=3.10.3 ../../../../hack/generate-controller-registration.sh provider-mock . ../../example/controller-registration.yaml BackupBucket:mock BackupEntry:mock ControlPlane:mock Infrastructure:mock Worker:mock Network:mock OperatingSystemConfig:mockos
+//go:generate EFFECTIVE_VERSION=0.1.0 ../../../../hack/generate-controller-registration.sh provider-mock . ../../example/controller-registration.yaml BackupBucket:mock BackupEntry:mock ControlPlane:mock Infrastructure:mock Worker:mock Network:mock OperatingSystemConfig:mockos
 
 // Package chart enables go:generate support for generating the correct controller registration.
 package chart

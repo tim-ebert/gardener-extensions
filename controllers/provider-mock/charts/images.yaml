@@ -1,5 +1,5 @@
 images:
-- name: alpine
-#  sourceRepository: github.com/docker-library/docs/tree/master/alpine
-  repository: alpine
-  tag: "3.10.3"
+- name: gardener-extension-provider-mock
+  sourceRepository: github.com/gardener/gardener-extensions/tree/master/controllers/provider-mock
+  repository: timebertsap/gardener-extension-provider-mock
+  tag: "0.1.0"
