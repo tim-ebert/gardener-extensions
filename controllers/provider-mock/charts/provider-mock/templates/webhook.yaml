@@ -4,7 +4,6 @@ metadata:
   name: {{ include "name" . }}
 webhooks:
 - admissionReviewVersions:
-  - v1
   - v1beta1
   clientConfig:
     service:
